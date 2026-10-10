@@ -1,0 +1,13 @@
+signature,severity
+ransomware,CRITICAL
+trojan,HIGH
+keylogger,HIGH
+sql injection,CRITICAL
+brute force,HIGH
+reverse shell,CRITICAL
+port scan,HIGH
+malware,HIGH
+phishing,HIGH
+privilege escalation,CRITICAL
+rootkit,CRITICAL
+backdoor,CRITICAL

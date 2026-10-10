@@ -1,0 +1,11 @@
+source,destination,capacity
+Internet,Firewall,100
+Firewall,Router1,80
+Firewall,Router2,60
+Router1,Server1,40
+Router1,Server2,30
+Router2,Server2,40
+Router2,Server3,30
+Server1,Database,30
+Server2,Database,50
+Server3,Database,20

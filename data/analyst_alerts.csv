@@ -1,0 +1,12 @@
+analyst,alert,skill
+A1,Malware Detection,malware
+A1,Network Attack,network
+A1,Phishing,phishing
+A2,Malware Detection,malware
+A2,Phishing,phishing
+A3,Network Attack,network
+A3,SQL Injection,web
+A4,SQL Injection,web
+A4,Malware Detection,malware
+A5,Network Attack,network
+A5,Phishing,phishing

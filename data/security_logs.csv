@@ -1,0 +1,26 @@
+timestamp,user,ip,event,message,risk
+2026-10-01 10:01:12,alice,192.168.1.10,LOGIN_SUCCESS,User login successful,LOW
+2026-10-01 10:02:15,root,192.168.1.50,LOGIN_FAILED,Invalid password,MEDIUM
+2026-10-01 10:02:17,root,192.168.1.50,LOGIN_FAILED,Invalid password,MEDIUM
+2026-10-01 10:02:19,root,192.168.1.50,LOGIN_FAILED,Invalid password,MEDIUM
+2026-10-01 10:03:00,root,192.168.1.50,LOGIN_FAILED,Invalid password,MEDIUM
+2026-10-01 10:03:05,root,192.168.1.50,LOGIN_FAILED,Invalid password,MEDIUM
+2026-10-01 10:05:11,admin,192.168.1.21,SQL_INJECTION,sql injection attempt detected,CRITICAL
+2026-10-01 10:06:22,bob,192.168.1.30,PORT_SCAN,port scan detected on ports 1-1000,HIGH
+2026-10-01 10:07:33,charlie,192.168.1.40,MALWARE,ransomware executed on system,CRITICAL
+2026-10-01 10:08:44,dave,192.168.1.60,PHISHING,phishing email clicked,HIGH
+2026-10-01 10:09:55,eve,192.168.1.70,PRIVILEGE_ESCALATION,privilege escalation attempt,CRITICAL
+2026-10-01 10:11:00,frank,192.168.1.80,REVERSE_SHELL,reverse shell established,CRITICAL
+2026-10-01 10:12:11,grace,192.168.1.90,TROJAN,trojan detected in downloads,HIGH
+2026-10-01 10:13:22,heidi,192.168.1.100,KEYLOGGER,keylogger found in startup,HIGH
+2026-10-01 10:14:33,ivan,192.168.1.110,BACKDOOR,backdoor access detected,CRITICAL
+2026-10-01 10:15:44,judy,192.168.1.120,ROOTKIT,rootkit installed,CRITICAL
+2026-10-01 10:16:55,alice,192.168.1.10,LOGIN_SUCCESS,User login successful,LOW
+2026-10-01 10:18:00,root,192.168.1.50,LOGIN_FAILED,Invalid password,MEDIUM
+2026-10-01 10:19:11,admin,192.168.1.21,SQL_INJECTION,sql injection attempt detected,CRITICAL
+2026-10-01 10:20:22,bob,192.168.1.30,PORT_SCAN,port scan detected on ports 1-1000,HIGH
+2026-10-01 10:21:33,charlie,192.168.1.40,MALWARE,ransomware executed on system,CRITICAL
+2026-10-01 10:22:44,mallory,192.168.1.130,BRUTE_FORCE,brute force attack detected,HIGH
+2026-10-01 10:23:55,oscar,192.168.1.140,SQL_INJECTION,sql injection attempt detected,CRITICAL
+2026-10-01 10:25:00,peggy,192.168.1.150,PHISHING,phishing email clicked,HIGH
+2026-10-01 10:26:11,trent,192.168.1.160,MALWARE,ransomware executed on system,CRITICAL
